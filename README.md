@@ -1,6 +1,6 @@
 ## rclone_rd for android
 
-This is a fork of the "official" rclone magisk module. The module has been adjusted to utilize my rclone fork "rclone_rd", which implements a new remote type for real-debrid.com.
+This is a fork of the "official" rclone magisk module. The module has been adjusted to utilize my rclone fork "rclone_rd", which implements a new remote type for real-debrid.com. The rest of this README is taken from the "official" module:
 
 ## Rclone Remount v1.8
 ---
