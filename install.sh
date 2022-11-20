@@ -144,14 +144,14 @@ on_install() {
 
   if [ "$ARCH" == "arm" ];then
     ui_print "+ downloading rclone-$ARCH to $MODPATH/rclone"
-    curl "https://beta.rclone.org/test/testbuilds-latest/rclone-android-16-armv7a.gz" | gunzip -d - > "$MODPATH"/rclone
+    curl "https://github.com/itsToggle/rclone_RD/releases/download/v1.58.1-rd.2.0/rclone-android-16-armv7a.gz" | gunzip -d - > "$MODPATH"/rclone
   elif [ "$ARCH" == "arm64" ];then
     ui_print "+ downloading rclone-$ARCH to $MODPATH/rclone"
-    curl "https://beta.rclone.org/test/testbuilds-latest/rclone-android-21-armv8a.gz" | gunzip -d - > "$MODPATH"/rclone
+    curl "https://github.com/itsToggle/rclone_RD/releases/download/v1.58.1-rd.2.0/rclone-android-21-armv8a.gz" | gunzip -d - > "$MODPATH"/rclone
   elif [ "$ARCH" == "x86" ];then
-    curl "https://beta.rclone.org/test/testbuilds-latest/rclone-android-16-x86.gz" | gunzip -d - > "$MODPATH"/rclone
+    curl "https://github.com/itsToggle/rclone_RD/releases/download/v1.58.1-rd.2.0/rclone-android-16-x86.gz" | gunzip -d - > "$MODPATH"/rclone
   elif [ "$ARCH" == "x64" ];then
-    curl "https://beta.rclone.org/test/testbuilds-latest/rclone-android-21-x64.gz" | gunzip -d - > "$MODPATH"/rclone
+    curl "https://github.com/itsToggle/rclone_RD/releases/download/v1.58.1-rd.2.0/rclone-android-21-x64.gz" | gunzip -d - > "$MODPATH"/rclone
   fi
 
   CONFIG_PATH=$TMPDIR/config
