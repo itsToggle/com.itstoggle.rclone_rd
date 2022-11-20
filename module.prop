@@ -1,5 +1,5 @@
-id=com.piyushgarg.rclone
-name=rclone-mount
+id=com.itstoggle.rclone_d
+name=rclone_rd-mount
 modVer=1.16
 BinVer=1.56.0
 version=v1.16
